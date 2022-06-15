@@ -150,6 +150,11 @@ header {
     margin-bottom: 50px;
 }
 
+.team,
+.about-us {
+    padding-bottom: 94px;
+}
+
 .about-photo1,
 .about-photo2,
 .about-photo3 {
