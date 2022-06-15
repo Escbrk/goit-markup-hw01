@@ -248,18 +248,16 @@ a {
     margin-left: 215px;
 }
 
+.address-title,
+.contacts-footer {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
 .contacts-footer {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-}
-
-.address-title {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
 }
