@@ -104,15 +104,12 @@ header {
     cursor: pointer;
     }
 
-.main {
+.features {
     background-color: #fff;
 }
 
-.features {
+.features-list {
     display: flex;
-    /* padding: 0 215px;
-    align-items: center;
-    justify-content: center; */
     margin-left: auto;
     margin-right: auto;
     width: 1214px;
@@ -215,10 +212,6 @@ margin-bottom: 30px;
     height: 100%;
     background: #2F303A; 
     padding-bottom: 60px;
-}
-
-.contact-footer {
-    
 }
 
 .address-title {
