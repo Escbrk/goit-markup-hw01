@@ -1,0 +1,251 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+
+header {
+    background-color: #fff;
+    display: flex;
+    height: 80px;
+}
+
+.logo-style {
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    margin-top: 24px;
+    margin-left: 215px;
+    position: absolute;
+
+}
+    
+
+.logo-color {
+    color: #2196F3;
+}
+
+.navigation ul ::marker {
+    color: #fff;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list {
+    display: flex;
+    position: relative;
+    left: 500px;
+   
+}
+.navigation-item {
+    margin-right: 50px;
+}
+
+.contacts {
+    position: relative;
+    left: 910px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-link {
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2F303A;
+    height: 100%;
+    margin-bottom: 94px;
+}
+
+.order-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 650px;
+    margin: 200px 452px 50px 452px;
+}
+
+.order-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px;
+    margin-bottom: 200px;
+    cursor: pointer;
+    }
+
+.main {
+    background-color: #fff;
+}
+
+.features {
+    display: flex;
+    /* padding: 0 215px;
+    align-items: center;
+    justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1214px;
+}
+
+.feature-item {
+    align-items: center;
+    text-align: left;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-top: 10px;
+}
+
+.feature-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-bottom: 94px;
+    width: 340px;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+}
+
+.about-photo1,
+.about-photo2,
+.about-photo3 {
+    width: 370px;
+    align-items: center;
+}
+.about-photo2 {
+    margin: 0 30px;
+}
+
+.about-foto-all {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1179px;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-title {
+    padding-top: 94px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-person {
+    display: inline-block;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    margin: 15px;
+}
+
+.full-team {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1212px;
+}
+
+.person-title {
+    margin-bottom: 10px;
+}
+
+.person-text {
+margin-bottom: 30px;
+}
+
+.team-person-photo {
+    width: 270px;
+}
+
+
+.address {
+    height: 100%;
+    background: #2F303A; 
+    padding-bottom: 60px;
+}
+
+.contact-footer {
+    
+}
+
+.address-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-style {
+    color: #ACACB0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-footer {
+    padding-top: 60px;
+    margin: 0;
+}
+
+.logo-footer,
+.address-title,
+.contacts-footer {
+    margin-left: 215px;
+}
