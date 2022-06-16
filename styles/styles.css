@@ -222,10 +222,22 @@ h2 {
 
 .person-title {
     margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 
 .person-text {
-margin-bottom: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 .team-person-photo {
@@ -249,7 +261,15 @@ margin-bottom: 30px;
 }
 
 .contact-style {
-    color: #ACACB0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-list-style {
+    margin-bottom: 9px;
 }
 
 a {
