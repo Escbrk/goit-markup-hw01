@@ -72,6 +72,11 @@ h2 {
     margin: 32px 215px 32px 1078px;
 }
 
+.contact-link:hover,
+.navigation-item:hover {
+    color: #2196F3;
+}
+
 .contact-link {
     margin-right: 50px;
     font-weight: 500;
@@ -130,6 +135,10 @@ h2 {
     letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 50px;
+}
+
+.hidden-title {
+    display: none;
 }
 
 .features-list {
