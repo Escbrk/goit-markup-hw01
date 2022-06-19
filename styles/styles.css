@@ -189,21 +189,19 @@ header {
     padding-bottom: 94px;
 }
 
-
-.about-photo1,
-.about-photo2,
-.about-photo3 {
-    width: 370px;
+.about-photo {
     align-items: center;
+    margin: 0 15px;
 }
-.about-photo2 {
-    margin: 0 30px;
-}
+
 
 .about-foto-all {
+    display: flex;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 1179px;
+    width: 1170px;
+  
 }
 
 .team {
