@@ -10,7 +10,7 @@ buttons.forEach(button => {
     pages.forEach(project => {
       let type = project.querySelector('.category-text').innerText;
       if (type == e.target.innerText || e.target.innerText == 'Все') {
-        project.classList.remove('invisivisually-hiddenble');
+        project.classList.remove('visually-hidden');
       } else {
         project.classList.add('visually-hidden');
       }
