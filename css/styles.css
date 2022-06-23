@@ -29,6 +29,12 @@ body {
   letter-spacing: 0.03em;
   margin: 24px 0 0 215px;
   color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  display: flex;
 }
 
 .logo-color {
@@ -55,6 +61,7 @@ body {
   padding: 0;
 }
 
+.active,
 .active-button,
 .navigation-list :hover {
   color: #2196f3;
@@ -67,6 +74,10 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
+}
+
+.contact-link:hover {
+  color: #2196f3;
 }
 
 .hero {
@@ -242,6 +253,7 @@ body {
 .address {
   /* margin-bottom: 252px; */
   background: #2f303a;
+  display: flex;
 }
 
 .address-title {
@@ -274,14 +286,7 @@ ul {
   list-style: none;
 }
 
-.logo-style {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  display: flex;
-}
+
 
 .address-link {
   font-family: 'Roboto';
@@ -414,8 +419,4 @@ ul {
 
 .social-img {
   padding-top: 20%;
-}
-
-footer {
-  display: flex;
 }
