@@ -9,11 +9,11 @@ buttons.forEach(button => {
     e.target.classList.add("active-button");
     pages.forEach(project => {
       let type = project.querySelector('.category-text').innerText;
-      if (type == e.target.innerText || e.target.innerText == 'Все') {
-        project.classList.remove('visually-hidden');
-      } else {
-        project.classList.add('visually-hidden');
-      }
+if (type.indexOf(e.target.innerText.slice(0, -1)) >= 0 || e.target.innerText == 'Все') {
+  project.classList.remove('visually-hidden');
+} else {
+  project.classList.add('visually-hidden');
+}
     });
   })
 })
