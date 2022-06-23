@@ -9,7 +9,7 @@ body {
 header {
     display: flex;
     height: 80px;
-    width: 1170px;
+    justify-content: space-between;
 }
 
 .logo-style {
@@ -60,8 +60,8 @@ header {
 
 .contacts-list {
     display: flex;
-    position: absolute;
-    margin: 32px 215px 32px 1078px;
+    margin-top: 32px;
+    padding: 0;
 }
 
 .contact-link:hover,
@@ -78,15 +78,15 @@ header {
     color: #757575;
 }
 
-.order {
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #2F303A;
-    margin-bottom: 94px;
+    padding: 200px 452px;
 }
 
-.order-title {
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -95,10 +95,9 @@ header {
     text-transform: uppercase;
     color: #FFFFFF;
     width: 650px;
-    margin: 200px 452px 50px 452px;
 }
 
-.order-btn {
+.hero-btn {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -111,7 +110,6 @@ header {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 10px 32px;
-    margin-bottom: 200px;
     cursor: pointer;
     }
 
@@ -201,7 +199,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     width: 1170px;
-  
 }
 
 .team {
@@ -285,7 +282,7 @@ a {
 }
 
 ul {
-    list-style: none
+    list-style: none;
 }
 
 .logo-style-footer {
@@ -295,13 +292,6 @@ ul {
     line-height: 31px;
     letter-spacing: 0.03em;
     display: flex;
-}
-
-.contacts-footer {
-    margin: 20px 0 0 215px;
-    padding: 0 0 60px 0;
-    display: flex;
-    flex-direction: column;
 }
 
 .address-link {
@@ -316,6 +306,10 @@ ul {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin: 20px 0 0 215px;
+    padding: 0 0 60px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .about-person {
