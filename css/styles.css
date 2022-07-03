@@ -20,7 +20,7 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   margin-top: 60px;
-  color: black;
+  color: #fff;
 }
 
 .logo {
@@ -30,15 +30,21 @@ body {
   letter-spacing: 0.03em;
   margin-top: 24px;
   color: black;
+  margin-right: 94px;
 }
 
 .logo-style {
   font-family: 'Raleway';
   font-style: normal;
+  display: flex;
 }
 
 .logo-color {
   color: #2196f3;
+}
+
+.navigation {
+  display: flex;
 }
 
 .navigation-list {
@@ -85,19 +91,23 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #2f303a;
-  padding: 200px 452px;
+  background-image: url('../img/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .hero-title {
-  /* font-weight: 900; */
+  font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  width: 650px;
+  width: 696px;
+  margin: 0 0 30px 0;
+  display: flex;
+  padding-top: 200px;
 }
 
 .hero-btn {
@@ -115,20 +125,12 @@ body {
   padding: 10px 32px;
   cursor: pointer;
   border: none;
+  margin-bottom: 140px;
 }
 
 .features {
   background-color: #fff;
-}
-
-.about-features-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 50px;
+  padding-top: 94px;
 }
 
 .visually-hidden {
@@ -146,14 +148,9 @@ body {
 
 .features-list {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1214px;
-}
-
-.feature-item {
-  align-items: center;
-  text-align: left;
+  margin: 0 auto;
+  width: 1170px;
+  justify-content: space-between;
 }
 
 .feature-title {
@@ -172,10 +169,12 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-bottom: 94px;
-  width: 340px;
+  width: 270px;
 }
 
+.map-title,
+.clients-title,
+.about-features-title,
 .about-title {
   font-weight: 700;
   font-size: 36px;
@@ -184,8 +183,10 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
+  padding-top: 94px;
 }
 
+.clients-list,
 .team,
 .about-us {
   padding-bottom: 94px;
@@ -199,9 +200,9 @@ body {
 .about-foto-all {
   display: flex;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 1170px;
+  justify-content: center;
 }
 
 .team {
@@ -220,11 +221,11 @@ body {
 
 .team-person {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1212px;
+  margin: 50px auto;
+  width: 1170px;
   display: flex;
-  margin-top: 50px;
+  margin: auto;
+  justify-content: center;
 }
 
 .person-title {
@@ -253,7 +254,6 @@ body {
 
 .address {
   background: #2f303a;
-  display: flex;
 }
 
 .address-title {
@@ -286,10 +286,6 @@ ul {
   list-style: none;
 }
 
-.logo-style {
-  display: flex;
-}
-
 .address-link {
   font-family: 'Roboto';
   font-style: normal;
@@ -305,6 +301,10 @@ ul {
   padding: 0 0 60px 0;
   display: flex;
   flex-direction: column;
+}
+
+.contacts-footer :hover {
+  color: #2196f3;
 }
 
 .about-person {
@@ -485,5 +485,73 @@ ul {
 }
 
 .servis {
-color: #2196f3;
+  color: #2196f3;
+}
+
+.feature-item > div {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.clients-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-item:hover {
+  border: 1px solid #2196f3;
+}
+
+.clients-item:hover > a > svg path {
+  fill: #2196f3;
+}
+
+.personal-social-pages > li {
+  padding-bottom: 30px;
+}
+.personal-social-pages {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0 32px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 1170px;
+  margin: 0 auto;
+  padding-bottom: 94px;
+}
+.map > iframe {
+  border: #2196f3;
+}
+.map-title > span {
+  color: #2196f3;
+}
+.map > div {
+  border: 5px #2196f3;
+  padding: 10px;
+  box-shadow: 10px 10px 30px #2196f3, 10px 10px 30px #2196f3, 10px 10px 30px #2196f3;
+  border-radius: 4px;
 }
